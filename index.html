@@ -11,7 +11,7 @@
       padding: 0;
       color: #333;
       min-height: 100vh;
-      background: url("img/lp_ajapa.png") center/cover no-repeat fixed;
+      background: #f2f2f2;
     }
 header {
       background: #004aad;
@@ -106,18 +106,23 @@ h1, h2 {
       content: "✔";
       font-size: 1.2rem;
     }
+  
+    .hero {
+      height: 100vh;
+      background: url("img/lp_ajapa.png") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
   </style>
 </head>
 <body>
 
-  <header>
-    <h1 id="pl-title">Odkryj Adźapa Jogę</h1>
-    <h1 id="en-title" class="hidden">Discover Ajapa Yoga</h1>
-    <p id="pl-sub">Starożytna mądrość z Indii — droga do wewnętrznej przemiany</p>
-    <p id="en-sub" class="hidden">Ancient wisdom from India — a path to inner transformation</p>
-    <p id="pl-details"><a href="https://maps.app.goo.gl/gjg7ANr4tMVp4qQJ6" target="_blank" rel="noopener noreferrer">📍</a> Aśram Ajapa Yogi, Mroczkowice | 📅 21 września 2025, godz. 12:30 | 🌐 Wykład w języku angielskim z tłumaczeniem na polski</p>
-    <p id="en-details" class="hidden"><a href="https://maps.app.goo.gl/gjg7ANr4tMVp4qQJ6" target="_blank" rel="noopener noreferrer">📍</a> Ajapa Yoga Ashram, Mroczkowice, Poland | 📅 21 September 2025, 12:30 PM | 🌐 English lecture with Polish translation</p>
-  </header>
+  <section class="hero"></section>
+
+
+  
 
   <main>
     <div class="lang-switch">
@@ -339,5 +344,14 @@ h1, h2 {
 
 
 
+
+<header>
+    <h1 id="pl-title">Odkryj Adźapa Jogę</h1>
+    <h1 id="en-title" class="hidden">Discover Ajapa Yoga</h1>
+    <p id="pl-sub">Starożytna mądrość z Indii — droga do wewnętrznej przemiany</p>
+    <p id="en-sub" class="hidden">Ancient wisdom from India — a path to inner transformation</p>
+    <p id="pl-details"><a href="https://maps.app.goo.gl/gjg7ANr4tMVp4qQJ6" target="_blank" rel="noopener noreferrer">📍</a> Aśram Ajapa Yogi, Mroczkowice | 📅 21 września 2025, godz. 12:30 | 🌐 Wykład w języku angielskim z tłumaczeniem na polski</p>
+    <p id="en-details" class="hidden"><a href="https://maps.app.goo.gl/gjg7ANr4tMVp4qQJ6" target="_blank" rel="noopener noreferrer">📍</a> Ajapa Yoga Ashram, Mroczkowice, Poland | 📅 21 September 2025, 12:30 PM | 🌐 English lecture with Polish translation</p>
+  </header>
 </body>
 </html>
